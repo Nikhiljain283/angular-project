@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent {
-
+  title = 'first-ang-project';
+  imgUrl= "../assets/logo.jpg"
+  message: String='hello from bridgelabz'
 }
